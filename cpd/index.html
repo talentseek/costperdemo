@@ -230,8 +230,24 @@
 
 
 
+<script src="https://unpkg.com/tripetto-runner-foundation"></script>
+<script src="https://unpkg.com/tripetto-runner-autoscroll"></script>
+<script src="https://unpkg.com/tripetto-services"></script>
+<script>
+var tripetto = TripettoServices.init({ token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoid0hwU0dEdXdOQW5ZbmxIdGFZTlNKaGlEVU9ZUWNqdmEreG5SZmxOS0JnST0iLCJkZWZpbml0aW9uIjoiS1Y5Q3ZlOVhhdVU3cnBHZ2ROdzlFR21kUmlPZllrMDNUTS84WnJZQUljTT0iLCJ0eXBlIjoiY29sbGVjdCJ9.4gcwFyyJFwFHnGJQssyv22woJ0TrzGQsp3zvbq1j6_Y" });
 
-           <div class="typeform-widget" data-url="https://form.typeform.com/to/DgSTzhlc?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+TripettoAutoscroll.run({
+    element: document.body, /* Or supply your own element here */
+    definition: tripetto.definition,
+    styles: tripetto.styles,
+    l10n: tripetto.l10n,
+    locale: tripetto.locale,
+    translations: tripetto.translations,
+    attachments: tripetto.attachments,
+    onSubmit: tripetto.onSubmit
+});
+</script>
+           
 
         <footer id="home_footer2" class="footer1-8bcefad1-de33-4225-8d40-7b11dd682739 sw-background-color-211e32 sw-padding-top-2xl sw-padding-bottom-2xl sw-border-top-style-none sw-border-top-width-xs sw-border-top-color-000000 sw-border-bottom-style-none sw-border-bottom-width-xs sw-border-bottom-color-000000 "><div class="container"><div class="row align-items-center"><div class="col-md-3 col-12 text-center text-md-left pb-md-2 pb-5"><a href="/"><img class="sw-width-xs "src="https://softr-prod.imgix.net/applications/f5619991-6226-4c8f-af93-0a935604fe66/assets/c1784b07-5a70-4ab6-ba5f-e9335b8c3388.png"alt="Publish your designed things."></a></div><div class="col-md-9 col-12 pb-2"><div class="nav justify-content-center justify-content-md-end"><a target="" class="nav-link sw-font-size-s sw-text-color-e1e1e1 sw-font-family-default sw-font-weight-default sw-letter-spacing-normal " href="https://www.termsfeed.com/live/5fe7db9d-63ff-4a7c-873e-612693656965">Terms of Service</a><a target="" class="nav-link sw-font-size-s sw-text-color-e1e1e1 sw-font-family-default sw-font-weight-default sw-letter-spacing-normal " href="https://www.termsfeed.com/live/c2b5a621-dced-49e7-892a-c1a0bf13ce00">Privacy Policy</a></div></div></div><div class="row"><div class="col-12"><hr class="sw-margin-top-3xs sw-margin-bottom-3xs sw-border-top-style-solid sw-border-top-width-xs sw-border-top-color-cccccc "></div></div><div class="row"><div class="col-7"><small class="sw-font-size-m sw-text-color-default sw-font-family-default sw-font-weight-default sw-padding-top-none sw-padding-bottom-3xs sw-display-block">&copy; 2021 costperdemo.com</small></div><div class="col-5"><div class="text-right"><a href="https://www.linkedin.com/company/costperdemo" target="_blank" class="sw-text-color-adb5bd sw-font-size-3xl sw-width-9xs sw-display-inline-block"><i class="fab fa-linkedin-in"></i></a></div></div></div></div></div></footer>
 
